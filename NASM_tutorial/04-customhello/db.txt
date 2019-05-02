@@ -1,0 +1,29 @@
+
+./customhello:	file format Mach-O 64-bit x86-64
+
+Disassembly of section __TEXT,__text:
+__text:
+    1fd9:	b8 04 00 00 02 	movl	$33554436, %eax
+    1fde:	bf 01 00 00 00 	movl	$1, %edi
+    1fe3:	48 be 00 20 00 00 00 00 00 00 	movabsq	$8192, %rsi
+    1fed:	ba 04 00 00 00 	movl	$4, %edx
+    1ff2:	0f 05 	syscall
+    1ff4:	b8 01 00 00 02 	movl	$33554433, %eax
+    1ff9:	bf 00 00 00 00 	movl	$0, %edi
+    1ffe:	0f 05 	syscall
+
+_main:
+    1fd9:	b8 04 00 00 02 	movl	$33554436, %eax
+    1fde:	bf 01 00 00 00 	movl	$1, %edi
+    1fe3:	48 be 00 20 00 00 00 00 00 00 	movabsq	$8192, %rsi
+    1fed:	ba 04 00 00 00 	movl	$4, %edx
+    1ff2:	0f 05 	syscall
+    1ff4:	b8 01 00 00 02 	movl	$33554433, %eax
+    1ff9:	bf 00 00 00 00 	movl	$0, %edi
+    1ffe:	0f 05 	syscall
+Disassembly of section __DATA,__data:
+string:
+    2000:	61  <unknown>
+    2001:	62  <unknown>
+    2002:	63  <unknown>
+    2003:	0a  <unknown>
