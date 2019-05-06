@@ -17,7 +17,8 @@ We are going to use
 
 # Environmennt
 
-This repository is processed in the following environment
+This repository is processed in the following environment. 
+If you got some errors, you could solve the problem by installing each software.
 
     $ sw_vers
       ProductName:    Mac OS X
@@ -33,6 +34,15 @@ This repository is processed in the following environment
     $ qemu-system-arm --version
       QEMU emulator version 4.0.0
       Copyright (c) 2003-2019 Fabrice Bellard and the QEMU Project developers
+      
+# Procedure
+
+If you do not know what you should do, please check the `NOTES DIRECTLY`.
+I am going to keep adding my notebooks into that directly.
+
+`FOUNDATION.md` might be the most rudimentary one.
+
+Needless to say, you could use the links below, and search the terminology you cannot understand by yourself.
 
 
 
