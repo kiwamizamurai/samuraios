@@ -10,3 +10,6 @@ clean:
 # http://exlight.net/devel/make/make_errors.html
 # https://postd.cc/writing-an-os-baby-steps/
 # Press Tab command on the command-lines
+
+# to execute
+# $ make qemu
