@@ -4,6 +4,7 @@ section .data
 
 section .text
 global _main
+;
 
 _main:
 	mov rax, 0x2000004      ; 1
