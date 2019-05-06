@@ -1,0 +1,21 @@
+
+test_01.o:	file format Mach-O 64-bit x86-64
+
+Disassembly of section __TEXT,__text:
+_main:
+; int main(void){
+       0:	55 	pushq	%rbp
+       1:	48 89 e5 	movq	%rsp, %rbp
+       4:	c7 45 fc 00 00 00 00 	movl	$0, -4(%rbp)
+; int a = 1;
+       b:	c7 45 f8 01 00 00 00 	movl	$1, -8(%rbp)
+; int b = 2;
+      12:	c7 45 f4 02 00 00 00 	movl	$2, -12(%rbp)
+; int c = a + b;
+      19:	8b 45 f8 	movl	-8(%rbp), %eax
+      1c:	03 45 f4 	addl	-12(%rbp), %eax
+      1f:	89 45 f0 	movl	%eax, -16(%rbp)
+; return c;
+      22:	8b 45 f0 	movl	-16(%rbp), %eax
+      25:	5d 	popq	%rbp
+      26:	c3 	retq
