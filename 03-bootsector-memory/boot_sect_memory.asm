@@ -18,6 +18,7 @@ mov al, [the_secret]
 int 0x10
 
 ; attempt 3
+
 ; Add the BIOS starting offset 0x7c00 to the memory address of the X
 ; and then dereference the contents of that pointer.
 ; We need the help of a different register 'bx' because 'mov al, [ax]' is illegal.
